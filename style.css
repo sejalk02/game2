@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(img2.jpg);
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #f4b8b8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+
+  
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #000000;
+    margin-top: 0;
+  }
+  
+  #game {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #problem {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    width: 100px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #feedback {
+    font-weight: bold;
+    margin-top: 10px;
+ 
+  }
+  
+  #score, #timer {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #start-game {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #start-game:hover {
+    background-color: #0056b3;
+  }
+  
+  

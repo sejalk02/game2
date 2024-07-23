@@ -1,0 +1,26 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arithmetic Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Arithmetic Game</h1>
+    <div id="game">
+      <p id="problem"></p>
+      <input type="number" id="answer" placeholder="Enter your answer">
+      <button id="submit" onclick="checkAnswer()">Submit</button>
+      <div id="feedback"></div>
+      <div id="score">Score: 0</div>
+      <div id="timer">Time left: <span id="time-left">30 seconds</span></div>
+    </div>
+    <button id="start-game" onclick="startGame()">Start Game</button>
+  </div>
+
+  <script src="Script.js"></script>
+</body>
+</html>
+
